@@ -1,4 +1,4 @@
-puts "Have been to the movies?"
+puts "How are you my dear?"
 answer = gets.chomp
 
 while answer == answer.downcase
