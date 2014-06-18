@@ -15,7 +15,7 @@ full_reply = reply.split
 if full_reply[0] != "sing" || full_reply[1].to_i <= 0
 puts "ERROR!!"
 
-else full_reply[0] == "sing" && full_reply[1].to_i > 0
+else 
   puts full_reply[1] + " bottles of beer on the wall"
   puts full_reply[1] + " bottles of beer"
   puts "take one down and pass it around"
